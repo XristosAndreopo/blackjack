@@ -1,12 +1,12 @@
-Σχέδιο Υλοποίησης
-    1.Βασική Λογική του Παιχνιδιού:
-        - Δημιουργία τράπουλας.
-        - Μηχανισμός μοίρασμα καρτών (dealer και παίκτης).
-        - Υπολογισμός πόντων.
-        - Κανόνες παιχνιδιού (blackjack, bust, stand, hit κ.λπ.).
-            - Hit και Stand: Ο παίκτης μπορεί να τραβήξει άλλη κάρτα ή να σταματήσει.
-            - Ο dealer παίζει μετά τον παίκτη: Ο dealer τραβάει κάρτες μέχρι να φτάσει ή να ξεπεράσει τους 17 πόντους.
-            - Νικητής του παιχνιδιού: Σύγκριση πόντων για να καθοριστεί ο νικητής.
+Implement plan
+    1.Logic of game - backend:
+        - Create Deck.
+        - Deal card (dealer and player).
+        - Calculate Score.
+        - Rules of game (blackjack, bust, stand, hit etc.).
+        - Hit και Stand: Player can draw a card or stop
+        - Dealer plays after player: Dealer draws card till score is equal or higher than 17 .
+        - Game Winner.
     2. Δημιουργία GUI:
         - Παράθυρο εφαρμογής.
         - Εμφάνιση καρτών (π.χ., εικόνες ή κείμενο).
