@@ -55,14 +55,14 @@ def check_blackjack_or_bust(hand):
 
 
 # Deal card
-def deal_card(deck):
-    return deck.pop() if deck else None
+def deal_card(deck_of_cards):
+    return deck_of_cards.pop() if deck_of_cards else None
 
 
 # Play of dealer
-def dealer_play(deck, dealer_hand):
+def dealer_play(deck_of_cards, dealer_hand):
     while calculate_score(dealer_hand) < 17:
-        dealer_hand.append(deal_card(deck))
+        dealer_hand.append(deal_card(deck_of_cards))
     return dealer_hand
 
 
